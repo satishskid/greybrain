@@ -1,54 +1,66 @@
-# Welcome to your Lovable project
+# GreyBrain Healthcare AI Platform
 
-## Project info
+A modern web application showcasing GreyBrain's healthcare AI solutions, featuring an automated blog system that aggregates content from various medical and AI research sources.
 
-**URL**: https://lovable.dev/projects/2d8da10e-be12-4af8-89c9-63723e3c8450
+## 🚀 Quick Links
 
-## How can I edit this code?
+- **Production Site**: [greybrain.ai](https://greybrain.ai)
+- **Development Preview**: [greybrain-healthcare.windsurf.build](https://greybrain-healthcare.windsurf.build)
+- **Repository**: [GitHub](https://github.com/satishskid/greybrain)
 
-There are several ways of editing your application.
+## 🛠 Tech Stack
 
-**Use Lovable**
+- **Frontend**: React + Vite + TypeScript
+- **UI Components**: Shadcn/ui
+- **Styling**: Tailwind CSS
+- **Deployment**: Netlify
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2d8da10e-be12-4af8-89c9-63723e3c8450) and start prompting.
+## 🔑 Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Automated Blog System**
+   - Integration with PubMed API
+   - RSS feeds from healthcare news sources
+   - arXiv research paper integration
+   - AI/Healthcare focused content filtering
 
-**Use your preferred IDE**
+2. **Client Showcase**
+   - SKids Health
+   - Santaan
+   - SaiScan
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Deployment Information
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js >= 18
+- npm or yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Local Development
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+### Deployment Configuration
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Platform**: Netlify
+- **Build Command**: `npm run build`
+- **Publish Directory**: `dist`
+- **Node Version**: 18
 
-**Use GitHub Codespaces**
+## 🔄 Content Update Process
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The blog content is automatically updated through:
+1. PubMed API integration
+2. Healthcare news RSS feeds
+3. arXiv paper aggregation
 
 ## What technologies are used for this project?
 
